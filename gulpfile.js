@@ -49,7 +49,7 @@ gulp.task('default', function() {
           fontPath:  'infl-fonts/',
           className: 'ic'
         }))
-        .pipe(gulp.dest('./lib/stylesheets'));
+        .pipe(gulp.dest('./lib/infl-icons'));
     })
     .pipe(gulp.dest('./lib/fonts'));
 });
