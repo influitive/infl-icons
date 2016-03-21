@@ -40,6 +40,11 @@ gulp.task('default', function() {
         }))
         .pipe(gulp.dest('.'));
 
+      gulp.src('templates/iconInfo.json')
+        .pipe(consolidate('lodash', {
+          glyphs:    glyphs
+        }))
+        .pipe(gulp.dest('./lib'));
       // Generates a file ingested by the Hub. No one else
       // should use this one
       gulp.src('templates/_icon.scss')

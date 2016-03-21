@@ -6,6 +6,9 @@
   "scripts": {
     "build": "rm -rf lib && gulp --silent && babel --quiet src -d lib"
   },
+  "files": [
+    "lib"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/influitive/infl-icons.git"

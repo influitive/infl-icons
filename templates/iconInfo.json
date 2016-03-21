@@ -1,0 +1,11 @@
+{
+  "icons":
+    <%= JSON.stringify(glyphs.filter(function (glyph) {
+        return glyph.name !== '500donotdeletethis';
+      }).map( function(glyph) {
+      return {
+        name: glyph.name
+      }
+      }))
+    %>
+}
