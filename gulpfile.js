@@ -32,14 +32,6 @@ gulp.task('default', function() {
         }))
         .pipe(gulp.dest('./lib'));
 
-      // generate the patternity readme file for icon
-      // to be injested by patternlab.
-      gulp.src('templates/README.md')
-        .pipe(consolidate('lodash', {
-          glyphs:    glyphs
-        }))
-        .pipe(gulp.dest('.'));
-
       gulp.src('templates/iconInfo.json')
         .pipe(consolidate('lodash', {
           glyphs:    glyphs
