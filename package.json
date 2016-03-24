@@ -37,9 +37,5 @@
     "gulp-consolidate": "^0.2.0",
     "gulp-iconfont": "^6.0.0",
     "lodash": "^4.6.1"
-  },
-  "peerDependencies": {
-    "url-loader": "^0.5.7",
-    "file-loader": "^0.8.5"
   }
 }
