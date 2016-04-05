@@ -935,12 +935,32 @@
 }
 
 
-.ic.ic-coins-old:before {
+.ic.ic-ellipsis-horiz:before {
   content: "\EA5E"
+}
+
+@mixin ic-ellipsis-horiz() {
+  font-family: 'influicons';
+  content: "\EA5E"
+}
+
+
+.ic.ic-ellipsis-vert:before {
+  content: "\EA5F"
+}
+
+@mixin ic-ellipsis-vert() {
+  font-family: 'influicons';
+  content: "\EA5F"
+}
+
+
+.ic.ic-coins-old:before {
+  content: "\EA60"
 }
 
 @mixin ic-coins-old() {
   font-family: 'influicons';
-  content: "\EA5E"
+  content: "\EA60"
 }
 

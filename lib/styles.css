@@ -481,7 +481,17 @@
 }
 
 
-.coins-old:before {
+.ellipsis-horiz:before {
   content: "\EA5E"
+}
+
+
+.ellipsis-vert:before {
+  content: "\EA5F"
+}
+
+
+.coins-old:before {
+  content: "\EA60"
 }
 
