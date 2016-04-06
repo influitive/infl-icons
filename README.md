@@ -1,5 +1,10 @@
 ## Influitive Icons
 
+### Adding new icons
+
+Drop the new icon into the SVG folder and run ```npm run build```. Add all the changed files to git and commit.
+
+### Use
 To use the proper, React way:
 
 ```js
