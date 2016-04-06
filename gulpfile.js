@@ -32,7 +32,7 @@ gulp.task('default', function() {
         }))
         .pipe(gulp.dest('./lib'));
 
-      gulp.src('templates/iconInfo.json')
+      gulp.src('templates/types.js')
         .pipe(consolidate('lodash', {
           glyphs:    glyphs
         }))
