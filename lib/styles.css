@@ -10,7 +10,6 @@
 
 .icon:before {
   display: inline-block;
-  vertical-align: middle;
   font-family: 'influicons';
   font-size: inherit;
   font-style: normal;
@@ -494,4 +493,3 @@
 .coins-old:before {
   content: "\EA60"
 }
-

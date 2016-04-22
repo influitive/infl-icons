@@ -10,7 +10,6 @@
 
 .icon:before {
   display: inline-block;
-  vertical-align: middle;
   font-family: '<%= fontName %>';
   font-size: inherit;
   font-style: normal;
