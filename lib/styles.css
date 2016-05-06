@@ -19,6 +19,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.flex {
+  display: flex;
+}
+
 
 .alert-caution:before {
   content: "\EA02"
@@ -493,3 +497,4 @@
 .coins-old:before {
   content: "\EA60"
 }
+

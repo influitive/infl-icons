@@ -19,6 +19,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.flex {
+  display: flex;
+}
+
 <% _.each(glyphs, function(glyph) {
 
   if (glyph.name != '500donotdeletethis') {
