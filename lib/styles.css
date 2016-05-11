@@ -494,7 +494,42 @@
 }
 
 
-.coins-old:before {
+.pulse:before {
   content: "\EA60"
+}
+
+
+.budget-bulb:before {
+  content: "\EA61"
+}
+
+
+.advocates:before {
+  content: "\EA62"
+}
+
+
+.referral-user:before {
+  content: "\EA63"
+}
+
+
+.social-share:before {
+  content: "\EA64"
+}
+
+
+.dashboard:before {
+  content: "\EA65"
+}
+
+
+.discussions-reports:before {
+  content: "\EA66"
+}
+
+
+.coins-old:before {
+  content: "\EA67"
 }
 

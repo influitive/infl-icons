@@ -955,12 +955,82 @@
 }
 
 
-.ic.ic-coins-old:before {
+.ic.ic-pulse:before {
   content: "\EA60"
+}
+
+@mixin ic-pulse() {
+  font-family: 'influicons';
+  content: "\EA60"
+}
+
+
+.ic.ic-budget-bulb:before {
+  content: "\EA61"
+}
+
+@mixin ic-budget-bulb() {
+  font-family: 'influicons';
+  content: "\EA61"
+}
+
+
+.ic.ic-advocates:before {
+  content: "\EA62"
+}
+
+@mixin ic-advocates() {
+  font-family: 'influicons';
+  content: "\EA62"
+}
+
+
+.ic.ic-referral-user:before {
+  content: "\EA63"
+}
+
+@mixin ic-referral-user() {
+  font-family: 'influicons';
+  content: "\EA63"
+}
+
+
+.ic.ic-social-share:before {
+  content: "\EA64"
+}
+
+@mixin ic-social-share() {
+  font-family: 'influicons';
+  content: "\EA64"
+}
+
+
+.ic.ic-dashboard:before {
+  content: "\EA65"
+}
+
+@mixin ic-dashboard() {
+  font-family: 'influicons';
+  content: "\EA65"
+}
+
+
+.ic.ic-discussions-reports:before {
+  content: "\EA66"
+}
+
+@mixin ic-discussions-reports() {
+  font-family: 'influicons';
+  content: "\EA66"
+}
+
+
+.ic.ic-coins-old:before {
+  content: "\EA67"
 }
 
 @mixin ic-coins-old() {
   font-family: 'influicons';
-  content: "\EA60"
+  content: "\EA67"
 }
 
