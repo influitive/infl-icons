@@ -1025,12 +1025,42 @@
 }
 
 
-.ic.ic-coins-old:before {
+.ic.ic-trophy:before {
   content: "\EA67"
+}
+
+@mixin ic-trophy() {
+  font-family: 'influicons';
+  content: "\EA67"
+}
+
+
+.ic.ic-badge:before {
+  content: "\EA68"
+}
+
+@mixin ic-badge() {
+  font-family: 'influicons';
+  content: "\EA68"
+}
+
+
+.ic.ic-levelup:before {
+  content: "\EA69"
+}
+
+@mixin ic-levelup() {
+  font-family: 'influicons';
+  content: "\EA69"
+}
+
+
+.ic.ic-coins-old:before {
+  content: "\EA6A"
 }
 
 @mixin ic-coins-old() {
   font-family: 'influicons';
-  content: "\EA67"
+  content: "\EA6A"
 }
 
