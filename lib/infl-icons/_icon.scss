@@ -1025,42 +1025,52 @@
 }
 
 
-.ic.ic-trophy:before {
+.ic.ic-admin:before {
   content: "\EA67"
+}
+
+@mixin ic-admin() {
+  font-family: 'influicons';
+  content: "\EA67"
+}
+
+
+.ic.ic-trophy:before {
+  content: "\EA68"
 }
 
 @mixin ic-trophy() {
   font-family: 'influicons';
-  content: "\EA67"
+  content: "\EA68"
 }
 
 
 .ic.ic-badge:before {
-  content: "\EA68"
+  content: "\EA69"
 }
 
 @mixin ic-badge() {
   font-family: 'influicons';
-  content: "\EA68"
+  content: "\EA69"
 }
 
 
 .ic.ic-levelup:before {
-  content: "\EA69"
+  content: "\EA6A"
 }
 
 @mixin ic-levelup() {
   font-family: 'influicons';
-  content: "\EA69"
+  content: "\EA6A"
 }
 
 
 .ic.ic-coins-old:before {
-  content: "\EA6A"
+  content: "\EA6B"
 }
 
 @mixin ic-coins-old() {
   font-family: 'influicons';
-  content: "\EA6A"
+  content: "\EA6B"
 }
 

@@ -529,22 +529,27 @@
 }
 
 
-.trophy:before {
+.admin:before {
   content: "\EA67"
 }
 
 
-.badge:before {
+.trophy:before {
   content: "\EA68"
 }
 
 
-.levelup:before {
+.badge:before {
   content: "\EA69"
 }
 
 
-.coins-old:before {
+.levelup:before {
   content: "\EA6A"
+}
+
+
+.coins-old:before {
+  content: "\EA6B"
 }
 
