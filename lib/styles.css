@@ -549,7 +549,97 @@
 }
 
 
-.coins-old:before {
+.stage-blog:before {
   content: "\EA6B"
+}
+
+
+.stage-corpconf:before {
+  content: "\EA6C"
+}
+
+
+.stage-profile:before {
+  content: "\EA6D"
+}
+
+
+.stage-reply:before {
+  content: "\EA6E"
+}
+
+
+.stage-share:before {
+  content: "\EA6F"
+}
+
+
+.stage-follow:before {
+  content: "\EA70"
+}
+
+
+.stage-tweet:before {
+  content: "\EA71"
+}
+
+
+.stage-appexchange:before {
+  content: "\EA72"
+}
+
+
+.stage-getapp:before {
+  content: "\EA73"
+}
+
+
+.stage-review:before {
+  content: "\EA74"
+}
+
+
+.stage-group:before {
+  content: "\EA75"
+}
+
+
+.stage-quiz:before {
+  content: "\EA76"
+}
+
+
+.stage-advocateconf:before {
+  content: "\EA77"
+}
+
+
+.stage-img:before {
+  content: "\EA78"
+}
+
+
+.stage-nps:before {
+  content: "\EA79"
+}
+
+
+.stage-location:before {
+  content: "\EA7A"
+}
+
+
+.stage-question:before {
+  content: "\EA7B"
+}
+
+
+.stage-link:before {
+  content: "\EA7C"
+}
+
+
+.coins-old:before {
+  content: "\EA7D"
 }
 

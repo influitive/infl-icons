@@ -1065,12 +1065,192 @@
 }
 
 
-.ic.ic-coins-old:before {
+.ic.ic-stage-blog:before {
   content: "\EA6B"
+}
+
+@mixin ic-stage-blog() {
+  font-family: 'influicons';
+  content: "\EA6B"
+}
+
+
+.ic.ic-stage-corpconf:before {
+  content: "\EA6C"
+}
+
+@mixin ic-stage-corpconf() {
+  font-family: 'influicons';
+  content: "\EA6C"
+}
+
+
+.ic.ic-stage-profile:before {
+  content: "\EA6D"
+}
+
+@mixin ic-stage-profile() {
+  font-family: 'influicons';
+  content: "\EA6D"
+}
+
+
+.ic.ic-stage-reply:before {
+  content: "\EA6E"
+}
+
+@mixin ic-stage-reply() {
+  font-family: 'influicons';
+  content: "\EA6E"
+}
+
+
+.ic.ic-stage-share:before {
+  content: "\EA6F"
+}
+
+@mixin ic-stage-share() {
+  font-family: 'influicons';
+  content: "\EA6F"
+}
+
+
+.ic.ic-stage-follow:before {
+  content: "\EA70"
+}
+
+@mixin ic-stage-follow() {
+  font-family: 'influicons';
+  content: "\EA70"
+}
+
+
+.ic.ic-stage-tweet:before {
+  content: "\EA71"
+}
+
+@mixin ic-stage-tweet() {
+  font-family: 'influicons';
+  content: "\EA71"
+}
+
+
+.ic.ic-stage-appexchange:before {
+  content: "\EA72"
+}
+
+@mixin ic-stage-appexchange() {
+  font-family: 'influicons';
+  content: "\EA72"
+}
+
+
+.ic.ic-stage-getapp:before {
+  content: "\EA73"
+}
+
+@mixin ic-stage-getapp() {
+  font-family: 'influicons';
+  content: "\EA73"
+}
+
+
+.ic.ic-stage-review:before {
+  content: "\EA74"
+}
+
+@mixin ic-stage-review() {
+  font-family: 'influicons';
+  content: "\EA74"
+}
+
+
+.ic.ic-stage-group:before {
+  content: "\EA75"
+}
+
+@mixin ic-stage-group() {
+  font-family: 'influicons';
+  content: "\EA75"
+}
+
+
+.ic.ic-stage-quiz:before {
+  content: "\EA76"
+}
+
+@mixin ic-stage-quiz() {
+  font-family: 'influicons';
+  content: "\EA76"
+}
+
+
+.ic.ic-stage-advocateconf:before {
+  content: "\EA77"
+}
+
+@mixin ic-stage-advocateconf() {
+  font-family: 'influicons';
+  content: "\EA77"
+}
+
+
+.ic.ic-stage-img:before {
+  content: "\EA78"
+}
+
+@mixin ic-stage-img() {
+  font-family: 'influicons';
+  content: "\EA78"
+}
+
+
+.ic.ic-stage-nps:before {
+  content: "\EA79"
+}
+
+@mixin ic-stage-nps() {
+  font-family: 'influicons';
+  content: "\EA79"
+}
+
+
+.ic.ic-stage-location:before {
+  content: "\EA7A"
+}
+
+@mixin ic-stage-location() {
+  font-family: 'influicons';
+  content: "\EA7A"
+}
+
+
+.ic.ic-stage-question:before {
+  content: "\EA7B"
+}
+
+@mixin ic-stage-question() {
+  font-family: 'influicons';
+  content: "\EA7B"
+}
+
+
+.ic.ic-stage-link:before {
+  content: "\EA7C"
+}
+
+@mixin ic-stage-link() {
+  font-family: 'influicons';
+  content: "\EA7C"
+}
+
+
+.ic.ic-coins-old:before {
+  content: "\EA7D"
 }
 
 @mixin ic-coins-old() {
   font-family: 'influicons';
-  content: "\EA6B"
+  content: "\EA7D"
 }
 
