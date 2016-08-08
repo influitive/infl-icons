@@ -47,6 +47,12 @@ gulp.task('default', function() {
           className: 'ic'
         }))
         .pipe(gulp.dest('./lib/infl-icons'));
+
+      gulp.src('templates/index.js')
+        .pipe(consolidate('lodash', {
+          glyphs:    glyphs
+        }))
+        .pipe(gulp.dest('./example'));
     })
     .pipe(gulp.dest('./lib/fonts'));
 });

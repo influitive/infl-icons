@@ -4,7 +4,8 @@
   "description": "Influitive Icons",
   "main": "lib/index.js",
   "scripts": {
-    "build": "rm -rf lib && gulp --silent && babel --quiet src -d lib"
+    "build": "rm -rf lib && gulp --silent && babel --quiet src -d lib",
+    "start": "kotatsu serve -c example/webpack.config.js -p 3099 --babel"
   },
   "files": [
     "lib"
@@ -34,8 +35,13 @@
     "eslint-plugin-react": "3.16.1",
     "gulp": "^3.9.1",
     "gulp-consolidate": "^0.2.0",
-    "gulp-iconfont": "^6.0.0",
-    "lodash": "^4.6.1"
+    "gulp-iconfont": "^8.0.1",
+    "kotatsu": "^0.14.0",
+    "lodash": "^4.6.1",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "reforge": "^1.0.0",
+    "webpack-merge": "^0.14.1"
   },
   "dependencies": {
     "classnames": "^2.2.3"
