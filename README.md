@@ -1,5 +1,9 @@
 ## Influitive Icons
 
+### Prerequisites ###
+
+You need to make sure that you infl-icons css is processed as css?modules in your webpack config, otherwise the fonts won't be picked up.
+
 ### Adding new icons
 
 Drop the new icon into the SVG folder and run ```npm run build```. Add all the changed files to git and commit.
