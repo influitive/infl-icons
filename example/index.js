@@ -253,6 +253,8 @@ render(
 
     <Icon icon='stage-link'/>
 
+    <Icon icon='send'/>
+
     <Icon icon='coins-old'/>
 
   </div>,

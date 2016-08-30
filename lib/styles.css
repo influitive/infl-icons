@@ -639,7 +639,12 @@
 }
 
 
-.coins-old:before {
+.send:before {
   content: "\EA7D"
+}
+
+
+.coins-old:before {
+  content: "\EA7E"
 }
 
