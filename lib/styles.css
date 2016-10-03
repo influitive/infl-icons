@@ -354,7 +354,7 @@
 }
 
 
-.private:before {
+.public:before {
   content: "\EA44"
 }
 
@@ -469,182 +469,202 @@
 }
 
 
-.video:before {
+.megaphone:before {
   content: "\EA5B"
 }
 
 
-.refresh:before {
+.export:before {
   content: "\EA5C"
 }
 
 
-.process-list:before {
+.video:before {
   content: "\EA5D"
 }
 
 
-.ellipsis-horiz:before {
+.refresh:before {
   content: "\EA5E"
 }
 
 
-.ellipsis-vert:before {
+.process-list:before {
   content: "\EA5F"
 }
 
 
-.pulse:before {
+.ellipsis-horiz:before {
   content: "\EA60"
 }
 
 
-.budget-bulb:before {
+.ellipsis-vert:before {
   content: "\EA61"
 }
 
 
-.advocates:before {
+.pulse:before {
   content: "\EA62"
 }
 
 
-.referral-user:before {
+.budget-bulb:before {
   content: "\EA63"
 }
 
 
-.social-share:before {
+.advocates:before {
   content: "\EA64"
 }
 
 
-.dashboard:before {
+.referral-user:before {
   content: "\EA65"
 }
 
 
-.discussions-reports:before {
+.social-share:before {
   content: "\EA66"
 }
 
 
-.admin:before {
+.dashboard:before {
   content: "\EA67"
 }
 
 
-.trophy:before {
+.discussions-reports:before {
   content: "\EA68"
 }
 
 
-.badge:before {
+.admin:before {
   content: "\EA69"
 }
 
 
-.levelup:before {
+.trophy:before {
   content: "\EA6A"
 }
 
 
-.stage-blog:before {
+.badge:before {
   content: "\EA6B"
 }
 
 
-.stage-corpconf:before {
+.levelup:before {
   content: "\EA6C"
 }
 
 
-.stage-profile:before {
+.stage-blog:before {
   content: "\EA6D"
 }
 
 
-.stage-reply:before {
+.stage-corpconf:before {
   content: "\EA6E"
 }
 
 
-.stage-share:before {
+.stage-profile:before {
   content: "\EA6F"
 }
 
 
-.stage-follow:before {
+.stage-reply:before {
   content: "\EA70"
 }
 
 
-.stage-tweet:before {
+.stage-share:before {
   content: "\EA71"
 }
 
 
-.stage-appexchange:before {
+.stage-follow:before {
   content: "\EA72"
 }
 
 
-.stage-getapp:before {
+.stage-tweet:before {
   content: "\EA73"
 }
 
 
-.stage-review:before {
+.stage-appexchange:before {
   content: "\EA74"
 }
 
 
-.stage-group:before {
+.stage-getapp:before {
   content: "\EA75"
 }
 
 
-.stage-quiz:before {
+.stage-review:before {
   content: "\EA76"
 }
 
 
-.stage-advocateconf:before {
+.stage-group:before {
   content: "\EA77"
 }
 
 
-.stage-img:before {
+.stage-quiz:before {
   content: "\EA78"
 }
 
 
-.stage-nps:before {
+.stage-advocateconf:before {
   content: "\EA79"
 }
 
 
-.stage-location:before {
+.stage-img:before {
   content: "\EA7A"
 }
 
 
-.stage-question:before {
+.stage-nps:before {
   content: "\EA7B"
 }
 
 
-.stage-link:before {
+.stage-location:before {
   content: "\EA7C"
 }
 
 
-.send:before {
+.stage-question:before {
   content: "\EA7D"
 }
 
 
-.coins-old:before {
+.stage-link:before {
   content: "\EA7E"
+}
+
+
+.send:before {
+  content: "\EA7F"
+}
+
+
+.report:before {
+  content: "\EA80"
+}
+
+
+.private:before {
+  content: "\EA81"
+}
+
+
+.coins-old:before {
+  content: "\EA82"
 }
 

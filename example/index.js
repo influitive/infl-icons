@@ -139,7 +139,7 @@ render(
 
     <Icon icon='circle-filled'/>
 
-    <Icon icon='private'/>
+    <Icon icon='public'/>
 
     <Icon icon='globe-locked'/>
 
@@ -184,6 +184,10 @@ render(
     <Icon icon='android'/>
 
     <Icon icon='apple'/>
+
+    <Icon icon='megaphone'/>
+
+    <Icon icon='export'/>
 
     <Icon icon='video'/>
 
@@ -254,6 +258,10 @@ render(
     <Icon icon='stage-link'/>
 
     <Icon icon='send'/>
+
+    <Icon icon='report'/>
+
+    <Icon icon='private'/>
 
     <Icon icon='coins-old'/>
 
