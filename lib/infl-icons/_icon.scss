@@ -1295,12 +1295,62 @@
 }
 
 
-.ic.ic-coins-old:before {
+.ic.ic-icloud:before {
   content: "\EA82"
+}
+
+@mixin ic-icloud() {
+  font-family: 'influicons';
+  content: "\EA82"
+}
+
+
+.ic.ic-apple:before {
+  content: "\EA83"
+}
+
+@mixin ic-apple() {
+  font-family: 'influicons';
+  content: "\EA83"
+}
+
+
+.ic.ic-filter:before {
+  content: "\EA84"
+}
+
+@mixin ic-filter() {
+  font-family: 'influicons';
+  content: "\EA84"
+}
+
+
+.ic.ic-key:before {
+  content: "\EA85"
+}
+
+@mixin ic-key() {
+  font-family: 'influicons';
+  content: "\EA85"
+}
+
+
+.ic.ic-home:before {
+  content: "\EA86"
+}
+
+@mixin ic-home() {
+  font-family: 'influicons';
+  content: "\EA86"
+}
+
+
+.ic.ic-coins-old:before {
+  content: "\EA87"
 }
 
 @mixin ic-coins-old() {
   font-family: 'influicons';
-  content: "\EA82"
+  content: "\EA87"
 }
 

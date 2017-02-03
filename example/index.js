@@ -263,6 +263,16 @@ render(
 
     <Icon icon='private'/>
 
+    <Icon icon='icloud'/>
+
+    <Icon icon='apple'/>
+
+    <Icon icon='filter'/>
+
+    <Icon icon='key'/>
+
+    <Icon icon='home'/>
+
     <Icon icon='coins-old'/>
 
   </div>,

@@ -664,7 +664,32 @@
 }
 
 
-.coins-old:before {
+.icloud:before {
   content: "\EA82"
+}
+
+
+.apple:before {
+  content: "\EA83"
+}
+
+
+.filter:before {
+  content: "\EA84"
+}
+
+
+.key:before {
+  content: "\EA85"
+}
+
+
+.home:before {
+  content: "\EA86"
+}
+
+
+.coins-old:before {
+  content: "\EA87"
 }
 
