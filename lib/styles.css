@@ -689,7 +689,27 @@
 }
 
 
-.coins-old:before {
+.double-chevron-left:before {
   content: "\EA87"
+}
+
+
+.double-chevron-right:before {
+  content: "\EA88"
+}
+
+
+.user-add:before {
+  content: "\EA89"
+}
+
+
+.import:before {
+  content: "\EA8A"
+}
+
+
+.coins-old:before {
+  content: "\EA8B"
 }
 

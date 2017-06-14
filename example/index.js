@@ -273,6 +273,14 @@ render(
 
     <Icon icon='home'/>
 
+    <Icon icon='double-chevron-left'/>
+
+    <Icon icon='double-chevron-right'/>
+
+    <Icon icon='user-add'/>
+
+    <Icon icon='import'/>
+
     <Icon icon='coins-old'/>
 
   </div>,

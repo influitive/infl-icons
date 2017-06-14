@@ -1345,12 +1345,52 @@
 }
 
 
-.ic.ic-coins-old:before {
+.ic.ic-double-chevron-left:before {
   content: "\EA87"
+}
+
+@mixin ic-double-chevron-left() {
+  font-family: 'influicons';
+  content: "\EA87"
+}
+
+
+.ic.ic-double-chevron-right:before {
+  content: "\EA88"
+}
+
+@mixin ic-double-chevron-right() {
+  font-family: 'influicons';
+  content: "\EA88"
+}
+
+
+.ic.ic-user-add:before {
+  content: "\EA89"
+}
+
+@mixin ic-user-add() {
+  font-family: 'influicons';
+  content: "\EA89"
+}
+
+
+.ic.ic-import:before {
+  content: "\EA8A"
+}
+
+@mixin ic-import() {
+  font-family: 'influicons';
+  content: "\EA8A"
+}
+
+
+.ic.ic-coins-old:before {
+  content: "\EA8B"
 }
 
 @mixin ic-coins-old() {
   font-family: 'influicons';
-  content: "\EA87"
+  content: "\EA8B"
 }
 
