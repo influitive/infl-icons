@@ -1385,12 +1385,22 @@
 }
 
 
-.ic.ic-coins-old:before {
+.ic.ic-not-joined:before {
   content: "\EA8B"
+}
+
+@mixin ic-not-joined() {
+  font-family: 'influicons';
+  content: "\EA8B"
+}
+
+
+.ic.ic-coins-old:before {
+  content: "\EA8C"
 }
 
 @mixin ic-coins-old() {
   font-family: 'influicons';
-  content: "\EA8B"
+  content: "\EA8C"
 }
 

@@ -709,7 +709,12 @@
 }
 
 
-.coins-old:before {
+.not-joined:before {
   content: "\EA8B"
+}
+
+
+.coins-old:before {
+  content: "\EA8C"
 }
 

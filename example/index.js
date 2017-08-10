@@ -281,6 +281,8 @@ render(
 
     <Icon icon='import'/>
 
+    <Icon icon='not-joined'/>
+
     <Icon icon='coins-old'/>
 
   </div>,
