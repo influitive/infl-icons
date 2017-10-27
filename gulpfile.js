@@ -1,6 +1,6 @@
-var gulp = require('gulp');
-var iconfont = require('gulp-iconfont');
-var consolidate = require('gulp-consolidate');
+const gulp = require('gulp');
+const iconfont = require('gulp-iconfont');
+const consolidate = require('gulp-consolidate');
 
 function adustIconNames(glyphs) {
   return glyphs.map(function(glyph) {
@@ -25,7 +25,7 @@ gulp.task('default', function() {
       // and shouldn't ever be referenced directly.
       gulp.src('templates/styles.css')
         .pipe(consolidate('lodash', {
-          glyphs:    glyphs,
+          glyphs,
           fontName:  'influicons',
           fontPath:  'infl-fonts/',
           className: 'ic'
@@ -34,14 +34,14 @@ gulp.task('default', function() {
 
       gulp.src('templates/types.js')
         .pipe(consolidate('lodash', {
-          glyphs:    glyphs
+          glyphs
         }))
         .pipe(gulp.dest('./lib'));
       // Generates a file ingested by the Hub. No one else
       // should use this one
       gulp.src('templates/_icon.scss')
         .pipe(consolidate('lodash', {
-          glyphs:    glyphs,
+          glyphs,
           fontName:  'influicons',
           fontPath:  'infl-fonts/',
           className: 'ic'
@@ -50,7 +50,7 @@ gulp.task('default', function() {
 
       gulp.src('templates/index.js')
         .pipe(consolidate('lodash', {
-          glyphs:    glyphs
+          glyphs
         }))
         .pipe(gulp.dest('./example'));
     })
