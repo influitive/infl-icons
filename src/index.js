@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react';
 import classnames from 'classnames';
-import styles from '../lib/styles.css';
+import styles from './styles.css';
 
 const Icon = ({icon, flex}) =>
   <span className={
