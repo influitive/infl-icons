@@ -714,7 +714,12 @@
 }
 
 
-.coins-old:before {
+.lightbulb:before {
   content: "\EA8C"
+}
+
+
+.coins-old:before {
+  content: "\EA8D"
 }
 

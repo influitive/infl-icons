@@ -283,6 +283,8 @@ render(
 
     <Icon icon='not-joined'/>
 
+    <Icon icon='lightbulb'/>
+
     <Icon icon='coins-old'/>
 
   </div>,
