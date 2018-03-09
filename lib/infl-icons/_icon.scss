@@ -1395,12 +1395,22 @@
 }
 
 
-.ic.ic-coins-old:before {
+.ic.ic-lightbulb:before {
   content: "\EA8C"
+}
+
+@mixin ic-lightbulb() {
+  font-family: 'influicons';
+  content: "\EA8C"
+}
+
+
+.ic.ic-coins-old:before {
+  content: "\EA8D"
 }
 
 @mixin ic-coins-old() {
   font-family: 'influicons';
-  content: "\EA8C"
+  content: "\EA8D"
 }
 
