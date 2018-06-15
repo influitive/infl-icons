@@ -1405,12 +1405,22 @@
 }
 
 
-.ic.ic-coins-old:before {
+.ic.ic-columns:before {
   content: "\EA8D"
+}
+
+@mixin ic-columns() {
+  font-family: 'influicons';
+  content: "\EA8D"
+}
+
+
+.ic.ic-coins-old:before {
+  content: "\EA8E"
 }
 
 @mixin ic-coins-old() {
   font-family: 'influicons';
-  content: "\EA8D"
+  content: "\EA8E"
 }
 

@@ -719,7 +719,12 @@
 }
 
 
-.coins-old:before {
+.columns:before {
   content: "\EA8D"
+}
+
+
+.coins-old:before {
+  content: "\EA8E"
 }
 
