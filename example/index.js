@@ -285,6 +285,8 @@ render(
 
     <Icon icon='lightbulb'/>
 
+    <Icon icon='columns'/>
+
     <Icon icon='coins-old'/>
 
   </div>,
