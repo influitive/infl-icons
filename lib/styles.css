@@ -709,22 +709,22 @@
 }
 
 
-.not-joined:before {
+.coins-old:before {
   content: "\EA8B"
 }
 
 
-.lightbulb:before {
+.not-joined:before {
   content: "\EA8C"
 }
 
 
-.columns:before {
+.lightbulb:before {
   content: "\EA8D"
 }
 
 
-.coins-old:before {
+.columns:before {
   content: "\EA8E"
 }
 

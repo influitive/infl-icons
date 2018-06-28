@@ -281,13 +281,13 @@ render(
 
     <Icon icon='import'/>
 
+    <Icon icon='coins-old'/>
+
     <Icon icon='not-joined'/>
 
     <Icon icon='lightbulb'/>
 
     <Icon icon='columns'/>
-
-    <Icon icon='coins-old'/>
 
   </div>,
   document.getElementById('app')

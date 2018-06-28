@@ -1385,41 +1385,41 @@
 }
 
 
-.ic.ic-not-joined:before {
+.ic.ic-coins-old:before {
   content: "\EA8B"
+}
+
+@mixin ic-coins-old() {
+  font-family: 'influicons';
+  content: "\EA8B"
+}
+
+
+.ic.ic-not-joined:before {
+  content: "\EA8C"
 }
 
 @mixin ic-not-joined() {
   font-family: 'influicons';
-  content: "\EA8B"
+  content: "\EA8C"
 }
 
 
 .ic.ic-lightbulb:before {
-  content: "\EA8C"
+  content: "\EA8D"
 }
 
 @mixin ic-lightbulb() {
   font-family: 'influicons';
-  content: "\EA8C"
+  content: "\EA8D"
 }
 
 
 .ic.ic-columns:before {
-  content: "\EA8D"
-}
-
-@mixin ic-columns() {
-  font-family: 'influicons';
-  content: "\EA8D"
-}
-
-
-.ic.ic-coins-old:before {
   content: "\EA8E"
 }
 
-@mixin ic-coins-old() {
+@mixin ic-columns() {
   font-family: 'influicons';
   content: "\EA8E"
 }
