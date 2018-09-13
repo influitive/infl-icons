@@ -44,6 +44,7 @@
     "webpack-merge": "^0.14.1"
   },
   "dependencies": {
-    "classnames": "^2.2.3"
+    "classnames": "^2.2.3",
+    "prop-types": "^15.6.2"
   }
 }
