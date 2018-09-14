@@ -5,7 +5,8 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "rm -rf lib && gulp --silent && babel --quiet src -d lib",
-    "start": "kotatsu serve -c example/webpack.config.js -p 3099 --babel"
+    "start": "kotatsu serve -c example/webpack.config.js -p 3099 --babel",
+    "prepublish": "NODE_ENV=production npm run build"
   },
   "files": [
     "lib"
