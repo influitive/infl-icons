@@ -1,6 +1,6 @@
 {
   "name": "infl-icons",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Influitive Icons",
   "main": "lib/index.js",
   "scripts": {
